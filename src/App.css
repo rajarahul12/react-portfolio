@@ -1,0 +1,10 @@
+.typed_info {
+  font-size: 40px;
+  margin-top: 20px;
+}
+@media (max-width: 650px) {
+  .typed_info {
+    font-size: 23px;
+    /* border: 1px solid black; */
+  }
+}

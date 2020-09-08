@@ -68,22 +68,13 @@ class Header extends Component {
             <h1 className="responsive-headline">
               Hello, I'm <span style={{ color: "#ed6363" }}>{name}</span>
             </h1>
-            <h2 style={{ fontSize: "40px", marginTop: "20px" }}>
-              {window.innerWidth <= 650 ? (
-                <TypedInfo
-                  strings={[
-                    "I'm a Software Developer",
-                    "I'm a FullStack developer",
-                  ]}
-                />
-              ) : (
-                <TypedInfo
-                  strings={[
-                    "I'm a Software Developer at IBM",
-                    "I'm a FullStack web developer...",
-                  ]}
-                />
-              )}
+            <h2 className="typed_info">
+              <TypedInfo
+                strings={[
+                  "I'm a Software Developer at IBM",
+                  "I'm a FullStack web developer",
+                ]}
+              />
             </h2>
 
             {/* <h3>

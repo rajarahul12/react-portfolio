@@ -47,7 +47,11 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="./Resume_Rahul.pdf" className="button" download>
+                  <a
+                    href={require("./Resume_Rahul.pdf")}
+                    className="button"
+                    download
+                  >
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>

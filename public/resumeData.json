@@ -105,34 +105,34 @@
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+        "title": "Instagram Clone",
+        "category": "Instagram Clone built with Firebase ReactJS",
+        "image": "instagram-clone.png",
+        "url": "https://instagram-clone-2e5d0.web.app/"
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "title": "Spotify Clone",
+        "category": "Spotify Clone built with ReactJS",
+        "image": "spotify.png",
+        "url": "https://spotify-clone-react.web.app/"
       },
       {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+        "title": "Covid-19 Tracker",
+        "category": "Covid-19 tracker app created using ReactJS",
+        "image": "covid19.png",
+        "url": "https://covid-tracker-1e566.web.app/"
       },
       {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+        "title": "Tinder Clone",
+        "category": "Tiner Clone built with ReactJS and Firebase",
+        "image": "tinder-clone.png",
+        "url": "https://tinder-reactclone.web.app/"
       },
       {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "title": "Image Gallery",
+        "category": "Image Gallery built with ReactJS adn Firebase",
+        "image": "image-gallery.png",
+        "url": "https://image-gallery-react.web.app/"
       }
     ]
   },

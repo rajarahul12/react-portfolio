@@ -140,6 +140,7 @@ class Resume extends Component {
             <em style={{ display: "flex" }}>
               <img
                 style={{ height: "30px" }}
+                alt={skills.name}
                 src={require(`../images/${skills.name}.png`)}
               />{" "}
               <p style={{ marginLeft: "10px", marginTop: "5px" }}>

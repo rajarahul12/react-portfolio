@@ -6,14 +6,16 @@ const Contact = ({ data }) => {
   // );
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
-  const [email, setEmail] = useState("");
+  // const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
   console.log(data);
 
   const handleClick = (e) => {
     e.preventDefault();
-    window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+    window.open(
+      `mailto:rahul99.notifications@gmail.com?subject=${subject}&body=${name}: ${message}`
+    );
   };
 
   return (
@@ -49,7 +51,7 @@ const Contact = ({ data }) => {
                 />
               </div>
 
-              <div>
+              {/* <div>
                 <label htmlFor="contactEmail">
                   Email <span className="required">*</span>
                 </label>
@@ -62,7 +64,7 @@ const Contact = ({ data }) => {
                   name="contactEmail"
                   onChange={(e) => setEmail(e.target.value)}
                 />
-              </div>
+              </div> */}
 
               <div>
                 <label htmlFor="contactSubject">Subject</label>

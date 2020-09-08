@@ -29,7 +29,7 @@ class Header extends Component {
             Hide navigation
           </a>
 
-          <ul style={{ fontSize: "14px" }} id="nav" className="nav">
+          <ul style={{ fontSize: "16px" }} id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
                 Home
@@ -47,7 +47,7 @@ class Header extends Component {
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Work
               </a>
             </li>
             {/* <li>
